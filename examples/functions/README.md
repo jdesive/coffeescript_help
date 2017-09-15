@@ -34,3 +34,15 @@ function1 = ->
     
   function2 2
 ```
+
+## Running the script
+```shell
+$ coffee functions.coffee
+
+Loading variable
+Amount = 9
+Doing work!
+INFO 9 squared is 81.
+INFO 9 cubed is 729.
+INFO 531441
+```

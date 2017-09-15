@@ -18,3 +18,20 @@ bitlist = [
   1, 1, 0
 ]
 ```
+
+## Running the script
+```shell
+$ coffee arrays.coffee
+
+{ name: 'Dad', height: 5.6, age: 34 }
+{ name: 'Mom', height: 5.5, age: 34 }
+{ name: 'Brother', height: 4.4, age: 11 }
+{ name: 'Sister', height: 3, age: 7 }
+Names: Dad,Mom,Brother,Sister
+Heights: 5.6,5.5,4.4,3
+Ages: 34,34,11,7
+[ { name: 'Dad', height: 5.6, age: 34 },
+  { name: 'Mom', height: 5.5, age: 34 },
+  { name: 'Brother', height: 4.4, age: 11 },
+  { name: 'Sister', height: 3, age: 7 } ]
+```

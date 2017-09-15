@@ -35,3 +35,12 @@ team = [
 
 displayMembers team...
 ```
+
+## Running the script
+```shell
+$ coffee splat.coffee
+
+1st: jdesive
+2nd: ddesive
+Other: [adesive,hdesive,zdesive]
+```
